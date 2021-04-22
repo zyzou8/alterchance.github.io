@@ -1,0 +1,115 @@
+<!-- /zou zhuoyang 1155107924 -->
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Document</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/common.css">
+	</head>
+	<body>
+		<div class="container">
+			<div id="d2">
+				<P> I'M ZOU ZHUOYANG computer science</P>
+			</div>
+			<div id="a2">
+				<ul class="nav">
+					<li><button class="btn btn-danger">about me</button></li>
+					<li> <button class="btn btn-success">my hobbies</li>
+					<li><button class="btn btn-warning" id="special">SPECIAL</a></li>
+				</ul>
+			</div>
+			<div id="newBar">
+				<ul>
+					<li><button type="button" class="btn btn-secondary" id="addAlginButton">Task1:Align</button></li>
+					<li><button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModal">Task2:New
+							Hobby</button></li>
+					<li><button type="button" class="btn btn-secondary" id="showProgress">Task3:Scroll</button></li>
+				</ul>
+			</div>
+			<header id="header">
+				<h1 id="h1">屏幕高度进行了0%</h1>
+				<div class="top-bar"></div>
+				<div class="scroll"></div>
+			</header>
+			<!-- Modal -->
+			<div class="modal fade" id="exampleModal" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="exampleModalLabel">My Hobbies</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<div class="modal-body">
+							<textarea class="form-control" id="myHobbies" rows="3" placeholder="add a new habby..."></textarea>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-dismiss="modal">cancle</button>
+							<button type="button" class="btn btn-primary" id="addHobbiesButton">submit</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="d3">
+
+				<h1 class="addAlgin">NAME</h1>
+				<span class="addAlgin">ZOU ZHUOYANG </span>
+				<div>
+					<h2 class="addAlgin">About me</h2>
+					<p class="addAlgin">I’m a year 4 student in the Department of computer science,this is my last year in CUHK. Maybe
+						this is my last year in Hong Kong,</p>
+					<p class="addAlgin">but because of the covid-19, I haven't been to Hong Kong for a long time.</p>
+					<p class="addAlgin">I miss my life in CUHK.</p>
+				</div>
+				<div><img src="./tu/ren.jpg"></div>
+			</div>
+			<div style="background-color: #fff;">
+				<div id="d4">
+					<h4 class="addAlgin">My hobbies</h4>
+					<div>
+						<ul>
+							<li class="addAlgin">painting</li>
+							<li class="addAlgin">skateboard</li>
+							<li class="addAlgin">Electric guitar</li>
+							<li class="addAlgin">Kpop fan</li>
+						</ul>
+					</div>
+					<div id="a"></div>
+				</div>
+				<div id="d5">
+					<div><img src="./tu/2.jpg">
+						<img src="./tu/5.jpg"></div>
+				</div>
+				<div class="hobbyList">
+					<h3>My Hobbies</h3>
+					<P></P>
+				</div>
+				<div id="ff">
+					<h3>Comment</h3>
+					<div class="form-group">
+						<input id="email" type="text" class="form-control input-lg" placeholder="Email address：" required="required" />
+					</div>
+					<div class="form-group">
+						<textarea id="content" class="form-control" rows="4" cols="25" required="required" placeholder="leave your comment for me! "></textarea>
+					</div>
+					<div><input type="checkbox" name="red">red</div>
+					<br />
+					<a href="javascript:;" class="btn btn-primary" href="#" role="button" id="message">Send Comment</a>
+				</div>
+
+				<div class="commentListBox">
+					<ul id="commentList"></ul>
+				</div>
+
+				<footer>
+					<span>"This website was built on"</span> <time>2021-2-27</time>"."<b>©zou zhuoyang</b>
+				</footer>
+			</div>
+			<script src="js/jquery.min.js"></script>
+			<script src="js/popper.min.js"></script>
+			<script src="js/bootstrap.min.js"></script>
+			<script src="js/common.js"></script>
+	</body>
+</html>
